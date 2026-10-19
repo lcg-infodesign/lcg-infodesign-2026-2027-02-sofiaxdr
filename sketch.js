@@ -51,7 +51,7 @@ function mioGlifo(_x, _y, _size, g) {
   push();
   translate(_x, _y);
 
-  let petali = random(3, 9);
+  let petali = random(3, 10);
   let forma = random(2);
   let colore = random(6);
 
@@ -75,13 +75,13 @@ function mioGlifo(_x, _y, _size, g) {
     translate(_size * 0.25, 0);
 
     if (forma < 1) {
-      circle(0, 0, _size * 0.4);
+      circle(0, 0, _size * 0.35);
     } else {
       triangle(
-        _size * 0.2, 0,
-        -_size * 0.15, -_size * 0.15,
-        -_size * 0.15, _size * 0.15
-      );
+      _size * 0.30, 0,
+      -_size * 0.20, -_size * 0.18,
+      -_size * 0.20, _size * 0.18
+    );
     }
 
     pop();
