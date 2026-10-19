@@ -1,7 +1,7 @@
 
 
 let rotazioneFiori = 0;
-let numeroGlifi = 149;
+let numeroGlifi = 167;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
